@@ -1,7 +1,7 @@
 # Fine-tune GPT using OpenAI
 `export OPENAI_API_KEY="your-key"`
 
-`yarn install openai`
+`yarn install openai`  
 `pip install --upgrade openai openai"[datalib]"`
 
 ## Load your data
