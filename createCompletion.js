@@ -2,8 +2,8 @@ import { openai } from './api.js'
 
 async function createCompletion () {
   try {
-    const response = await openai.createChatCompletion({
-      model: 'my-model-name',
+    const response = await openai.createCompletion({
+      model: 'model-name',
       prompt: 'What is Lens Protocol',
       max_tokens: 200
     })
