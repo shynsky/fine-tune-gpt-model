@@ -5,7 +5,7 @@
 `pip install --upgrade openai openai"[datalib]"`
 
 ## Load your data
-Put your data in JSONL format. "In general, we've found that each doubling of the dataset size leads to a linear increase in model quality."-OpenAI. This example has only 18 lines (data.jsonl file), and even this somewhat works.
+Put your data in JSONL format. "The more training examples you have, the better. We recommend having at least a couple hundred examples. In general, we've found that each doubling of the dataset size leads to a linear increase in model quality." - OpenAI. This example has only 18 lines (data.jsonl file), and even this somewhat works.
 
 Convert data into OpenAI desired format:
 `openai tools fine_tunes.prepare_data -f <FILENAME>`
